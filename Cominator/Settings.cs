@@ -169,16 +169,46 @@ namespace Cominator
         {
             using (Form prompt = new Form()
             {
-                Width = 300,
+                Width = 350,
                 Height = 150,
                 Text = "Edit Shortcut Name",
-                StartPosition = FormStartPosition.CenterParent
+                StartPosition = FormStartPosition.CenterParent,
+                Icon = Properties.Resources.pendrive, 
+                FormBorderStyle = FormBorderStyle.FixedSingle,
+                MinimizeBox = false,
+                MaximizeBox = false
             })
             {
-                Label label = new Label() { Left = 20, Top = 20, Text = "Enter new name:" };
-                TextBox textBox = new TextBox() { Left = 20, Top = 50, Width = 240, Text = currentName };
-                Button ok = new Button() { Text = "OK", Left = 160, Top = 80, DialogResult = DialogResult.OK };
-                Button cancel = new Button() { Text = "Cancel", Left = 240, Top = 80, DialogResult = DialogResult.Cancel };
+                Label label = new Label()
+                {
+                    Left = 20,
+                    Top = 20,
+                    Text = "Enter new name:",
+                    AutoSize = true
+                };
+                TextBox textBox = new TextBox()
+                {
+                    Left = 20,
+                    Top = 50,
+                    Width = 310,
+                    Text = currentName
+                };
+                Button ok = new Button()
+                {
+                    Text = "OK",
+                    Left = (prompt.ClientSize.Width - 190) / 2,
+                    Top = 80,
+                    Width = 80,
+                    DialogResult = DialogResult.OK
+                };
+                Button cancel = new Button()
+                {
+                    Text = "Cancel",
+                    Left = ok.Left + 110,
+                    Top = 80,
+                    Width = 80,
+                    DialogResult = DialogResult.Cancel
+                };
 
                 prompt.Controls.Add(label);
                 prompt.Controls.Add(textBox);

@@ -1,3 +1,8 @@
 .vs/
 Cominator/.vs/
 shared/.vs/
+Package/
+Cominator/bin/
+Cominator/obj/
+shared/bin/
+shared/obj/

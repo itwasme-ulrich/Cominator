@@ -245,7 +245,7 @@
             this.chkNotifyOnConnect.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkNotifyOnConnect.Location = new System.Drawing.Point(192, 353);
             this.chkNotifyOnConnect.Name = "chkNotifyOnConnect";
-            this.chkNotifyOnConnect.Size = new System.Drawing.Size(125, 20);
+            this.chkNotifyOnConnect.Size = new System.Drawing.Size(122, 20);
             this.chkNotifyOnConnect.TabIndex = 10;
             this.chkNotifyOnConnect.Text = "Notify on Plug-in";
             this.chkNotifyOnConnect.UseVisualStyleBackColor = true;
@@ -257,7 +257,7 @@
             this.chkNotifyOnDisconnect.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkNotifyOnDisconnect.Location = new System.Drawing.Point(192, 379);
             this.chkNotifyOnDisconnect.Name = "chkNotifyOnDisconnect";
-            this.chkNotifyOnDisconnect.Size = new System.Drawing.Size(133, 20);
+            this.chkNotifyOnDisconnect.Size = new System.Drawing.Size(130, 20);
             this.chkNotifyOnDisconnect.TabIndex = 11;
             this.chkNotifyOnDisconnect.Text = "Notify on Plug-out";
             this.chkNotifyOnDisconnect.UseVisualStyleBackColor = true;
@@ -385,9 +385,9 @@
             this.label6.Location = new System.Drawing.Point(423, 484);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(179, 16);
+            this.label6.Size = new System.Drawing.Size(152, 13);
             this.label6.TabIndex = 24;
-            this.label6.Text = "COM-INATOR Ver 1.0.0.a";
+            this.label6.Text = "COM-INATOR Ver 1.0.0.b";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // chkLaunchOnStartup
@@ -395,7 +395,7 @@
             this.chkLaunchOnStartup.AutoSize = true;
             this.chkLaunchOnStartup.Location = new System.Drawing.Point(192, 464);
             this.chkLaunchOnStartup.Name = "chkLaunchOnStartup";
-            this.chkLaunchOnStartup.Size = new System.Drawing.Size(142, 20);
+            this.chkLaunchOnStartup.Size = new System.Drawing.Size(139, 20);
             this.chkLaunchOnStartup.TabIndex = 25;
             this.chkLaunchOnStartup.Text = "Launch on Start-Up";
             this.chkLaunchOnStartup.UseVisualStyleBackColor = true;
